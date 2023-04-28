@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encriptador Challenge Alura">
+    <meta name="keywords" content="encriptador, alura, oracle, lenguaje de marcas, código html, css, git">
+    <meta name="author" content="Jimena Carrillo">
+    <title>Encriptador Alura</title>
+    <link href="https://fonts.google.com/share?selection.family=Inter:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/d5557437f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/main.js">
+</head>
+<body>
+    <header>
+        <img src="img/Logo.svg" alt="logo" class="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="cajatexto-contenedor">
+                <textarea class="cajatexto" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+
+            <div class="alerta">
+                <img src="img/alerta.svg" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="btn-contenedor">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+
+
+        <section class="seccion2">
+            <div class="munheco-contenedor">
+                <img src="img/Muñeco.svg" alt="" class="munheco">
+            </div>
+
+            <div class="contenedor-parrafo">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+            <div class="copiar-contenedor">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+
+            <div class="resultado-contenedor">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
